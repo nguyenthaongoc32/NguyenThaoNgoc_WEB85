@@ -1,6 +1,30 @@
 {
   "customers": [
     {
+      "id": "c001",
+      "name": "Nguyễn Văn A",
+      "email": "nguyenvana@example.com",
+      "age": 28
+  },
+  {
+      "id": "c002",
+      "name": "Trần Thị B",
+      "email": "tranthib@example.com",
+      "age": 32
+  },
+  {
+      "id": "c003",
+      "name": "Lê Văn C",
+      "email": "levanc@example.com",
+      "age": 24
+  },
+  {
+      "id": "c004",
+      "name": "Phạm Thị D",
+      "email": "phamthid@example.com",
+      "age": 29
+  },
+    {
       "id": "c005",
       "name": "Hoàng Văn E",
       "email": "hoangvane@example.com",
@@ -35,19 +59,8 @@
       "name": "Đặng Thị K",
       "email": "dangthik@example.com",
       "age": 30
-    },
-    {
-      "id": "cd63",
-      "name": "Đỗ Thị 4F",
-      "email": "dothif14@example.com",
-      "age": 27
-    },
-    {
-      "id": "c7a4",
-      "name": "Đỗ Thị 4F",
-      "email": "dothif14@example.com",
-      "age": 27
     }
+    
   ],
   "products": [
     {
@@ -114,91 +127,73 @@
   "orders": [
     {
       "orderId": "o001",
-      "customerId": null,
+      "customerId": "c001",
       "productId": "p002",
       "quantity": 1,
-      "totalPrice": 15000000,
-      "id": "8c53"
+      "totalPrice": 15000000
     },
     {
       "orderId": "o002",
-      "customerId": null,
+      "customerId": "c002",
       "productId": "p001",
       "quantity": 2,
-      "totalPrice": 14000000,
-      "id": "22a0"
+      "totalPrice": 14000000
     },
     {
       "orderId": "o003",
-      "customerId": null,
+      "customerId": "c003",
       "productId": "p005",
       "quantity": 3,
-      "totalPrice": 900000,
-      "id": "5a22"
+      "totalPrice": 900000
     },
     {
       "orderId": "o004",
       "customerId": "c005",
       "productId": "p004",
       "quantity": 2,
-      "totalPrice": 1000000,
-      "id": "17cf"
+      "totalPrice": 1000000
     },
     {
       "orderId": "o005",
-      "customerId": null,
+      "customerId": "c004",
       "productId": "p007",
       "quantity": 1,
-      "totalPrice": 4000000,
-      "id": "4fe0"
+      "totalPrice": 4000000
     },
     {
       "orderId": "o006",
       "customerId": "c006",
       "productId": "p003",
       "quantity": 1,
-      "totalPrice": 8000000,
-      "id": "a7f6"
+      "totalPrice": 8000000
     },
     {
       "orderId": "o007",
       "customerId": "c008",
       "productId": "p006",
       "quantity": 2,
-      "totalPrice": 2400000,
-      "id": "cba2"
+      "totalPrice": 2400000
     },
     {
       "orderId": "o008",
       "customerId": "c007",
       "productId": "p009",
       "quantity": 1,
-      "totalPrice": 600000,
-      "id": "2560"
+      "totalPrice": 600000
     },
     {
       "orderId": "o009",
       "customerId": "c009",
       "productId": "p008",
       "quantity": 1,
-      "totalPrice": 2000000,
-      "id": "3d2d"
+      "totalPrice": 2000000
     },
     {
       "orderId": "o010",
       "customerId": "c010",
       "productId": "p010",
       "quantity": 1,
-      "totalPrice": 1500000,
-      "id": "25ca"
-    },
-    {
-      "id": "66c1",
-      "orderId": "o006",
-      "customerId": "c006",
-      "productId": "p003",
-      "quantity": 5,
-      "totalPrice": 40000000
+      "totalPrice": 1500000
     }
   ]
 }
